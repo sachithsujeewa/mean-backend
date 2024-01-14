@@ -20,7 +20,7 @@ app.use(cors({
 
 // Default
 app.get("/api", (req: Request, res: Response) => {
-  res.status(201).json({ message: "Welcome to Auth Typescript" });
+  res.status(201).json({ message: "Welcome to Auth 2 Typescript" });
 });
 
 // User Route
